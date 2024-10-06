@@ -1,0 +1,31 @@
+.user-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.user-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-info {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.address,
+.company {
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #444;
+}

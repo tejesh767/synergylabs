@@ -1,0 +1,23 @@
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.button-container {
+  display: flex;
+  gap: 4px;
+}
+
+.action-button {
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

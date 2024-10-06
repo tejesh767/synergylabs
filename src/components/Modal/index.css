@@ -1,0 +1,89 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  margin:40px;
+}
+
+.modal-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="url"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.modal-content input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  width: 48%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-buttons button[type="submit"] {
+  background-color: #007bff;
+}
+
+.modal-buttons button[type="button"] {
+  background-color: #6c757d;
+}
+
+.modal-buttons button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
